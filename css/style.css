@@ -3,7 +3,7 @@ body{
   margin: 0;
   border: 0;
   padding: 0;
-  background-color: #b9d0a6;
+  background-color: #e7e6d6;
 }
 
 .wrapper{
@@ -11,25 +11,32 @@ body{
   height: 100vh;
   margin-left:auto;
   margin-right:auto;
-  background-color: #b9d0a6;
+  background-color: #EAEAEA;
 }
 
 .nav{
-  padding: 10px 100px 10px 100px;
-  background-color: #b9d0a6;
+  padding: 0px 90px 0px 90px;
+  background-color: #EAEAEA;
   text-align: center;
 }
 
 .nav-link{
-  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  height: 50px;
+  float: right;
 }
 
 .nav img{
   display: inline-block;
-  padding: 5px 50px 5px 50px;
+  padding: 0px 0px 1px 0px;
+  float: left;
 }
 
 .nav-link a{
+  font-size: 17px;
+  font-weight: bold;
   text-decoration: none;
   padding: 5px 50px 5px 50px;
   color: #000000;
@@ -39,25 +46,34 @@ body{
   width: 98%;
   height: 100vh;
   margin: 0px auto;
-  padding: 10px 0px 10px 0px;
+  padding: 0px;
+  clear: both;
 }
 
 .informations{
   padding: 50px;
   height: 75vh;
-  background-image: url("../img/nasa1.jpg");
+  background-image: url("../img/100.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .portfolio{
-  background-color: #241F3E;
+  background-color: #EAEAEA;
   padding: 50px;
 }
 
 .team{
+  background-color: #241F3E;
   text-align: center;
 }
 
 .team img{
   padding: 50px;
+}
+
+.contacts{
+  background-color: #E57C4E;
+  padding: 50px;
+  margin-bottom: 10px;
 }
