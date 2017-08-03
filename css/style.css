@@ -3,7 +3,7 @@ body{
   margin: 0;
   border: 0;
   padding: 0;
-  background-color: #e7e6d6;
+  background-color: #3F637C;
 }
 
 .wrapper{
@@ -11,13 +11,15 @@ body{
   height: 100vh;
   margin-left:auto;
   margin-right:auto;
-  background-color: #EAEAEA;
+  background-color: #586D7C;
 }
 
 .nav{
   padding: 0px 90px 0px 90px;
-  background-color: #EAEAEA;
+  background-color: #586D7C;
   text-align: center;
+  box-sizing: border-box;
+  height: 7vh;
 }
 
 .nav-link{
@@ -32,6 +34,9 @@ body{
   display: inline-block;
   padding: 0px 0px 1px 0px;
   float: left;
+  box-sizing: border-box;
+  height: 100%;
+  width: auto;
 }
 
 .nav-link a{
@@ -39,7 +44,7 @@ body{
   font-weight: bold;
   text-decoration: none;
   padding: 5px 50px 5px 50px;
-  color: #000000;
+  color: #ffffff;
 }
 
 .main{
@@ -51,11 +56,21 @@ body{
 }
 
 .informations{
+  box-sizing: border-box;
   padding: 50px;
-  height: 75vh;
+  height: 93vh;
   background-image: url("../img/100.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.scroll img{
+  height: auto;
+  width: 100px;
+  position:absolute;
+  left: 50%;
+  margin-left: -50px;
+  bottom:0px;
 }
 
 .portfolio{
@@ -64,16 +79,43 @@ body{
 }
 
 .team{
-  background-color: #241F3E;
+  background-color: #1D2830;
   text-align: center;
 }
 
+.team div{
+  display: inline-block;
+}
+
+.team p{
+  margin: 0;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
 .team img{
-  padding: 50px;
+  padding: 15px 70px 15px 70px;
 }
 
 .contacts{
-  background-color: #E57C4E;
-  padding: 50px;
+  background-image: url(../img/blue.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px;
   margin-bottom: 10px;
+}
+
+.contacts-link{
+  width: 100%;
+}
+
+.contacts-link a{
+  color: #ffffff;
+}
+
+.contacts-link .btn-link{
+  display: inline-block;
+  width: 20%;
 }
